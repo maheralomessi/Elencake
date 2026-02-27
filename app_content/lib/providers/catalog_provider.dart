@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart' hide Category;
 
 import '../models/business_info.dart';
 import '../models/category.dart';
