@@ -1,0 +1,22 @@
+{
+  "nameArabic": "ايلين كيك",
+  "nameEnglish": "Eileen Cake",
+  "slogan": "حلويات صنعت لسعادتكم",
+  "whatsapp": "967774278470",
+  "phoneDisplay": "774278470",
+  "address": "إب - الجبانة الوسطى",
+  "social": {
+    "facebook": "https://www.facebook.com/share/1QFdBhUg2w/",
+    "instagram": "https://www.facebook.com/share/1C3ULVecQJ/"
+  },
+  "payment": {
+    "kuraimi": {
+      "name": "بنك الكريمي",
+      "account": "3128074006"
+    },
+    "jeeb": {
+      "name": "محفظة جيب",
+      "number": "738138585"
+    }
+  }
+}

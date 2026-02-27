@@ -1,0 +1,531 @@
+{
+  "categories": [
+    {
+      "id": "gateau",
+      "name": "الجاتوه",
+      "icon": "🍰",
+      "image": "assets/images/categories/gateau.png"
+    },
+    {
+      "id": "pastries",
+      "name": "المعجنات",
+      "icon": "🥐",
+      "image": "assets/images/categories/pastries.png"
+    },
+    {
+      "id": "sweets",
+      "name": "الحلويات",
+      "icon": "🍬",
+      "image": "assets/images/categories/sweets.png"
+    },
+    {
+      "id": "pizza",
+      "name": "البيتزا",
+      "icon": "🍕",
+      "image": "assets/images/categories/pizza.png"
+    },
+    {
+      "id": "events",
+      "name": "تنظيم الحفلات والاعراس",
+      "icon": "🎊",
+      "image": "assets/images/categories/events.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": "gateau",
+      "name": "كيكة الشوكولاتة الفاخرة",
+      "price": 15000.0,
+      "description": "كيكة شوكولاتة غنية بطبقات الكريمة البلجيكية",
+      "image": "assets/images/products/quote_chocolate.jpg",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "categoryId": "gateau",
+      "name": "تشيز كيك الفراولة",
+      "price": 12000.0,
+      "description": "تشيز كيك بارد مع صوص الفراولة الطازج",
+      "image": "assets/images/products/cake_30.jpg",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "categoryId": "gateau",
+      "name": "كيكة الفانيليا والورد",
+      "price": 14000.0,
+      "description": "كيكة هشة بنكهة الفانيليا الطبيعية",
+      "image": "assets/images/products/wedding_cake.jpg",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "categoryId": "gateau",
+      "name": "كيكة اللوتس",
+      "price": 16000.0,
+      "description": "كيكة غنية بزبدة اللوتس المقرمشة",
+      "image": "assets/images/products/desserts_box.jpg",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "categoryId": "gateau",
+      "name": "كيكة الرد فيلفيت",
+      "price": 15500.0,
+      "description": "كيكة مخملية حمراء مع كريمة الجبن",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "categoryId": "gateau",
+      "name": "كيكة الفستق",
+      "price": 17000.0,
+      "description": "كيكة غنية بنكهة الفستق الحلبي",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 15,
+      "categoryId": "gateau",
+      "name": "كيكة الكراميل المملح",
+      "price": 14500.0,
+      "description": "مزيج رائع بين الحلاوة والملوحة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 16,
+      "categoryId": "gateau",
+      "name": "كيكة الليمون والنعناع",
+      "price": 13000.0,
+      "description": "كيكة منعشة وخفيفة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 17,
+      "categoryId": "gateau",
+      "name": "كيكة التوت البري",
+      "price": 15000.0,
+      "description": "كيكة غنية بقطع التوت الطازجة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 18,
+      "categoryId": "gateau",
+      "name": "كيكة العسل الروسية",
+      "price": 18000.0,
+      "description": "طبقات رقيقة من البسكويت والعسل",
+      "image": "assets/images/products/placeholder.png",
+      "featured": true
+    },
+    {
+      "id": 19,
+      "categoryId": "gateau",
+      "name": "كيكة المانجو",
+      "price": 14000.0,
+      "description": "كيكة صيفية بقطع المانجو الطبيعية",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "categoryId": "pastries",
+      "name": "كرواسون بالزبدة",
+      "price": 1500.0,
+      "description": "كرواسون فرنسي طازج وهش",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "categoryId": "pastries",
+      "name": "فطائر مشكلة",
+      "price": 5000.0,
+      "description": "بوكس فطائر متنوعة (جبن، زعتر، لحم)",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 21,
+      "categoryId": "pastries",
+      "name": "كرواسون شوكولاتة",
+      "price": 1800.0,
+      "description": "محشو بالشوكولاتة البلجيكية",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "categoryId": "pastries",
+      "name": "دانيش الفواكه",
+      "price": 2000.0,
+      "description": "عجينة هشة مع الكاسترد والفواكه",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 23,
+      "categoryId": "pastries",
+      "name": "مناقيش زعتر",
+      "price": 1200.0,
+      "description": "زعتر بلدي مع زيت زيتون أصلي",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 24,
+      "categoryId": "pastries",
+      "name": "فطيرة جبن عكاوي",
+      "price": 1500.0,
+      "description": "جبن عكاوي ذائب ومميز",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 25,
+      "categoryId": "pastries",
+      "name": "سمبوسة لحم",
+      "price": 3000.0,
+      "description": "طبق من السمبوسة المقرمشة (6 قطع)",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 26,
+      "categoryId": "pastries",
+      "name": "سبرينغ رولز خضار",
+      "price": 2500.0,
+      "description": "لفائف الخضار المقرمشة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 27,
+      "categoryId": "pastries",
+      "name": "خبز بالثوم والأعشاب",
+      "price": 1000.0,
+      "description": "خبز طازج بنكهة الثوم",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "categoryId": "pastries",
+      "name": "فطيرة سبانخ",
+      "price": 1300.0,
+      "description": "سبانخ طازجة مع دبس الرمان",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 29,
+      "categoryId": "pastries",
+      "name": "بيتزا صغيرة (ميني)",
+      "price": 4000.0,
+      "description": "مجموعة من البيتزا الصغيرة للمناسبات",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "categoryId": "sweets",
+      "name": "بقلاوة فستق",
+      "price": 8000.0,
+      "description": "بقلاوة شرقية غنية بالفستق الحلبي",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "categoryId": "sweets",
+      "name": "ماكرون فرنسي",
+      "price": 6000.0,
+      "description": "مجموعة ماكرون بنكهات متنوعة",
+      "image": "assets/images/products/cupcake_promo.jpg",
+      "featured": false
+    },
+    {
+      "id": 31,
+      "categoryId": "sweets",
+      "name": "كنافة نابلسية",
+      "price": 5000.0,
+      "description": "كنافة ساخنة بالجبن والقطر",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 32,
+      "categoryId": "sweets",
+      "name": "بسبوسة بالقشطة",
+      "price": 4000.0,
+      "description": "بسبوسة طرية محشوة بالقشطة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 33,
+      "categoryId": "sweets",
+      "name": "لقيمات بالعسل",
+      "price": 3000.0,
+      "description": "كرات العجين المقلية مع العسل",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 34,
+      "categoryId": "sweets",
+      "name": "أم علي",
+      "price": 3500.0,
+      "description": "حلى المكسرات والحليب الدافئ",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 35,
+      "categoryId": "sweets",
+      "name": "ترايفل المانجو",
+      "price": 4500.0,
+      "description": "طبقات الكريمة والمانجو والبسكويت",
+      "image": "assets/images/products/desserts_box.jpg",
+      "featured": false
+    },
+    {
+      "id": 36,
+      "categoryId": "sweets",
+      "name": "كوكيز شوكولاتة",
+      "price": 2500.0,
+      "description": "كوكيز طري بقطع الشوكولاتة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 37,
+      "categoryId": "sweets",
+      "name": "براونيز",
+      "price": 3000.0,
+      "description": "قطع الشوكولاتة الغنية والمكثفة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 38,
+      "categoryId": "sweets",
+      "name": "تيراميسو",
+      "price": 5500.0,
+      "description": "حلى القهوة الإيطالي الشهير",
+      "image": "assets/images/products/perfume_dessert.jpg",
+      "featured": false
+    },
+    {
+      "id": 39,
+      "categoryId": "sweets",
+      "name": "رز بلبن",
+      "price": 2000.0,
+      "description": "حلى الأرز والحليب التقليدي",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "categoryId": "pizza",
+      "name": "بيتزا مارجريتا",
+      "price": 4500.0,
+      "description": "بيتزا كلاسيكية بصلصة الطماطم والموزاريلا",
+      "image": "assets/images/products/pizza.jpg",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "categoryId": "pizza",
+      "name": "بيتزا خضار",
+      "price": 5000.0,
+      "description": "بيتزا غنية بالخضروات الطازجة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 41,
+      "categoryId": "pizza",
+      "name": "بيتزا ببروني",
+      "price": 6000.0,
+      "description": "شرائح الببروني البقري مع الجبن",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 42,
+      "categoryId": "pizza",
+      "name": "بيتزا دجاج باربيكيو",
+      "price": 6500.0,
+      "description": "قطع الدجاج مع صوص الباربيكيو",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 43,
+      "categoryId": "pizza",
+      "name": "بيتزا أربعة أجبان",
+      "price": 7000.0,
+      "description": "مزيج من أربعة أنواع أجبان فاخرة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 44,
+      "categoryId": "pizza",
+      "name": "بيتزا ثمار البحر",
+      "price": 8500.0,
+      "description": "روبيان وحبار مع صلصة مميزة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 45,
+      "categoryId": "pizza",
+      "name": "بيتزا حارة (مكسيكية)",
+      "price": 6000.0,
+      "description": "فلفل هلابينو ولحم مفروم",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 46,
+      "categoryId": "pizza",
+      "name": "بيتزا رانش الدجاج",
+      "price": 6500.0,
+      "description": "دجاج مع صوص الرانش الأبيض",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 47,
+      "categoryId": "pizza",
+      "name": "بيتزا فطر",
+      "price": 5500.0,
+      "description": "فطر طازج مع جبن موزاريلا",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 48,
+      "categoryId": "pizza",
+      "name": "بيتزا شاورما",
+      "price": 7000.0,
+      "description": "نكهة الشاورما العربية على بيتزا",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 49,
+      "categoryId": "pizza",
+      "name": "بيتزا سوبر سوبريم",
+      "price": 7500.0,
+      "description": "كل المكونات المفضلة في بيتزا واحدة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "categoryId": "events",
+      "name": "تنسيق طاولة كيك",
+      "price": 50000.0,
+      "description": "تنسيق كامل لطاولة الكيك والحلويات للمناسبات",
+      "image": "assets/images/products/home_of_glory.jpg",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "categoryId": "events",
+      "name": "باقة ورد طبيعي",
+      "price": 15000.0,
+      "description": "باقات ورد مميزة لتزيين حفلاتكم",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 51,
+      "categoryId": "events",
+      "name": "تجهيز بوفيه مفتوح",
+      "price": 150000.0,
+      "description": "بوفيه متكامل لعدد 50 شخص",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 52,
+      "categoryId": "events",
+      "name": "تزيين ممرات بالورد",
+      "price": 30000.0,
+      "description": "تزيين ممرات القاعات بالورد الطبيعي",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 53,
+      "categoryId": "events",
+      "name": "تأجير كراسي ملكي",
+      "price": 10000.0,
+      "description": "كراسي فخمة للمناسبات (للقطعة)",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 54,
+      "categoryId": "events",
+      "name": "تنسيق إضاءة حفلات",
+      "price": 20000.0,
+      "description": "إضاءة ليزر وكشافات ملونة",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 55,
+      "categoryId": "events",
+      "name": "تورتة زفاف 3 طوابق",
+      "price": 80000.0,
+      "description": "تورتة زفاف ضخمة ومزينة بالورد",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 56,
+      "categoryId": "events",
+      "name": "توزيعات مناسبات",
+      "price": 12000.0,
+      "description": "بوكس توزيعات (12 قطعة) فاخرة",
+      "image": "assets/images/products/birthday_itismy.jpg",
+      "featured": false
+    },
+    {
+      "id": 57,
+      "categoryId": "events",
+      "name": "دي جي ومكبرات صوت",
+      "price": 25000.0,
+      "description": "نظام صوتي متكامل للحفلات",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 58,
+      "categoryId": "events",
+      "name": "تنسيق حفلات تخرج",
+      "price": 40000.0,
+      "description": "تنسيق خاص لحفلات التخرج والنجاح",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    },
+    {
+      "id": 59,
+      "categoryId": "events",
+      "name": "تزيين سيارات زفاف",
+      "price": 20000.0,
+      "description": "تزيين سيارة العريس بالورد والشرائط",
+      "image": "assets/images/products/placeholder.png",
+      "featured": false
+    }
+  ]
+}
