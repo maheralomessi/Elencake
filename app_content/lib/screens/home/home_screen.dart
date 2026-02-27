@@ -151,14 +151,7 @@ class HomeScreen extends StatelessWidget {
           ),
           const SizedBox(height: 16),
 
-          // Promos
-          PromoCarousel(
-            images: const [
-              'assets/images/promos/promo_1.png',
-              'assets/images/promos/promo_2.png',
-              'assets/images/promos/promo_3.png',
-            ],
-          ),
+          
           const SizedBox(height: 18),
 
           // Categories
