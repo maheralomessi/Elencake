@@ -9,7 +9,6 @@ import '../../utils/format.dart';
 import '../../widgets/brand_logo.dart';
 import '../../widgets/category_card.dart';
 import '../../widgets/product_card.dart';
-import '../../widgets/promo_carousel.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
