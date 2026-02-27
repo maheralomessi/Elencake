@@ -13,6 +13,11 @@ jobs:
         channel: 'stable'
     - run: flutter pub get
       working-directory: ./app_content
+    
+    # هذا هو السطر الجديد لتحديث ملفات الأندرويد القديمة
+    - run: flutter create .
+      working-directory: ./app_content
+      
     - run: flutter build apk --release
       working-directory: ./app_content
     - uses: actions/upload-artifact@v4
